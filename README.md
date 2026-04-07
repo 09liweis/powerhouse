@@ -1,6 +1,22 @@
-# Nuxt Minimal Starter
+# PowerHouse Industrial Lighting
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern industrial lighting website built with Nuxt 4 and Tailwind CSS, referencing the design style of Lind Equipment. The website showcases industrial LED lighting products with factory-direct pricing and North American support.
+
+## Features
+
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
+- **Modern Components**: Reusable Vue components with TypeScript
+- **Complete Pages**:
+  - Homepage with hero section and product highlights
+  - OEM & Custom Branding page
+  - Product detail page with specifications
+  - About Us page with company story
+  - Contact page with inquiry form
+  - Blog page with articles and insights
+- **Navigation**: Header with main menu and footer with contact info
+- **Industrial Design**: Professional color scheme and typography
+
+## Project Structure
 
 ## Setup
 
