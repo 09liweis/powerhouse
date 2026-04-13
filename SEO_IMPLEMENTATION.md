@@ -1,6 +1,6 @@
 # SEO Optimization Implementation
 
-This document outlines the SEO optimizations implemented for the PowerHouse Industrial Lighting website.
+This document outlines the SEO optimizations implemented for the Smartware Industrial Solutions website.
 
 ## ✅ **Implemented SEO Features**
 

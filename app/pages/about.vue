@@ -18,7 +18,7 @@
           <h2 class="text-4xl font-bold mb-8 text-center">Our Story</h2>
           <div class="bg-gray-50 rounded-xl p-8 mb-12">
             <p class="text-lg text-gray-700 mb-6">
-              "Headquartered in Toronto with our primary manufacturing facility in Shenzhen, <span class="font-semibold">PowerHouse Industrial Lighting</span> was founded to solve a major problem: the gap between high-cost local suppliers and inconsistent overseas traders."
+              "Headquartered in Toronto with our primary manufacturing facility in Shenzhen, <span class="font-semibold">Smartware Industrial Solutions</span> was founded to solve a major problem: the gap between high-cost local suppliers and inconsistent overseas technology providers."
             </p>
             <p class="text-lg text-gray-700">
               We recognized that businesses needed reliable, high-quality industrial lighting solutions at competitive prices, but were stuck choosing between expensive domestic manufacturers with quality assurance and lower-cost international suppliers with questionable reliability and support.

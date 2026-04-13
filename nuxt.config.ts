@@ -9,17 +9,17 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      title: 'PowerHouse Industrial Lighting',
+      title: 'Smartware Industrial Solutions',
       meta: [
-        { name: 'description', content: 'Industrial LED Lighting Solutions with Factory-Direct Pricing and North American Support' },
-        { name: 'keywords', content: 'industrial LED lighting, LED tripods, light bars, work lights, factory-direct pricing' },
-        { name: 'author', content: 'PowerHouse Industrial Lighting' },
+        { name: 'description', content: 'Intelligent industrial solutions with smart technology integration, factory-direct pricing, and comprehensive support' },
+        { name: 'keywords', content: 'smart industrial solutions, industrial automation, IoT manufacturing, smartware, factory-direct pricing' },
+        { name: 'author', content: 'Smartware Industrial Solutions' },
         { name: 'robots', content: 'index, follow' },
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'sitemap', type: 'application/xml', href: '/sitemap.xml' },
-        { rel: 'canonical', href: 'https://powerhouse-lighting.com' },
+        { rel: 'canonical', href: 'https://smartware-solutions.com' },
       ],
     },
   },

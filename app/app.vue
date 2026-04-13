@@ -6,45 +6,45 @@
 </template>
 
 <script setup lang="ts">
-import { siteConfig } from '@/utils/seo'
+import { COMPANY } from '@/constants/company'
 
 // Global structured data for the entire site
-const structuredData = {
+const structuredData = JSON.stringify({
   '@context': 'https://schema.org',
   '@graph': [
     {
       '@type': 'Organization',
-      '@id': 'https://powerhouse-lighting.com/#organization',
-      name: 'PowerHouse Industrial Lighting',
-      url: 'https://powerhouse-lighting.com',
+      '@id': `${COMPANY.WEBSITE}/#organization`,
+      name: COMPANY.FULL_NAME,
+      url: COMPANY.WEBSITE,
       logo: {
         '@type': 'ImageObject',
-        url: 'https://powerhouse-lighting.com/logo.png',
+        url: COMPANY.LOGO,
       },
-      description: 'Industrial LED Lighting Solutions with Factory-Direct Pricing and North American Support',
+      description: COMPANY.DESCRIPTION,
       sameAs: [
-        'https://twitter.com/powerhouselighting',
-        'https://linkedin.com/company/powerhouse-lighting',
+        `https://twitter.com/${COMPANY.SOCIAL.TWITTER.replace('@', '')}`,
+        `https://linkedin.com/${COMPANY.SOCIAL.LINKEDIN}`,
       ],
       address: {
         '@type': 'PostalAddress',
-        addressLocality: 'Toronto',
-        addressRegion: 'ON',
-        addressCountry: 'CA',
+        addressLocality: COMPANY.LOCATIONS.HEADQUARTERS.city,
+        addressRegion: COMPANY.LOCATIONS.HEADQUARTERS.region,
+        addressCountry: COMPANY.LOCATIONS.HEADQUARTERS.country,
       },
     },
     {
       '@type': 'WebSite',
-      '@id': 'https://powerhouse-lighting.com/#website',
-      url: 'https://powerhouse-lighting.com',
-      name: 'PowerHouse Industrial Lighting',
-      description: 'Industrial LED Lighting Solutions',
+      '@id': `${COMPANY.WEBSITE}/#website`,
+      url: COMPANY.WEBSITE,
+      name: COMPANY.NAME,
+      description: COMPANY.DESCRIPTION,
       publisher: {
-        '@id': 'https://powerhouse-lighting.com/#organization',
+        '@id': `${COMPANY.WEBSITE}/#organization`,
       },
     },
   ],
-}
+})
 
 // Global SEO configuration
 useHead({
@@ -66,7 +66,7 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      children: JSON.stringify(structuredData),
+      innerHTML: structuredData,
     },
   ],
 })

@@ -1,6 +1,6 @@
-# PowerHouse Industrial Lighting
+# Smartware Industrial Solutions
 
-A modern industrial lighting website built with Nuxt 4 and Tailwind CSS, referencing the design style of Lind Equipment. The website showcases industrial LED lighting products with factory-direct pricing and North American support.
+A modern industrial solutions website built with Nuxt 4 and Tailwind CSS. The website showcases intelligent industrial automation, IoT, and smart manufacturing solutions with factory-direct pricing and comprehensive support.
 
 ## Features
 

@@ -5,10 +5,10 @@
         <!-- Logo -->
         <div class="flex items-center space-x-3">
           <div class="text-2xl font-bold tracking-tight">
-            <span class="text-blue-500">POWER</span><span class="text-white">HOUSE</span>
+            <span class="text-blue-500">SMART</span><span class="text-white">WARE</span>
           </div>
           <div class="hidden md:block text-sm text-gray-300">
-            Industrial LED Lighting & Solutions
+            Intelligent Industrial Solutions
           </div>
         </div>
 
@@ -121,7 +121,7 @@
 
           <!-- Mobile Tagline -->
           <div class="pt-4 px-3 text-sm text-gray-400 text-center">
-            Industrial LED Lighting & Solutions
+            Intelligent Industrial Solutions
           </div>
         </div>
       </div>

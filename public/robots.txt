@@ -1,4 +1,4 @@
-# robots.txt for PowerHouse Industrial Lighting
+# robots.txt for Smartware Industrial Solutions
 User-agent: *
 Allow: /
 Disallow: /private/

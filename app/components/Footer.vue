@@ -4,13 +4,13 @@
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <h3 class="text-2xl font-bold mb-4">
-            <span class="text-blue-500">POWER</span><span class="text-white">HOUSE</span>
+            <span class="text-blue-500">SMART</span><span class="text-white">WARE</span>
           </h3>
           <p class="text-gray-400 mb-4">
-            Industrial LED Lighting Solutions
+            Intelligent Industrial Solutions
           </p>
           <p class="text-gray-400 text-sm">
-            Bridging the gap between quality and cost with factory-direct pricing and North American support.
+            Bridging smart technology with industrial efficiency through factory-direct pricing and comprehensive support.
           </p>
         </div>
         
@@ -70,7 +70,7 @@
       </div>
       
       <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-        <p>&copy; 2024 PowerHouse Industrial Lighting. All rights reserved.</p>
+        <p>&copy; 2024 Smartware Industrial Solutions. All rights reserved.</p>
       </div>
     </div>
   </footer>
