@@ -70,7 +70,7 @@
       </div>
       
       <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-        <p>&copy; 2024 Smartware Industrial Solutions. All rights reserved.</p>
+        <p>&copy; {{new Date().getFullYear()}} Smartware Industrial Solutions. All rights reserved.</p>
       </div>
     </div>
   </footer>
